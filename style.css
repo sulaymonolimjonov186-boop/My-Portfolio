@@ -123,12 +123,18 @@ a {
   color: black;
   background: aqua;
   font-size: 20px;
-  border: 1px solid aqua;
+  border: 3px solid aqua;
   border-radius: 15px;
   padding: 20px;
   margin-right: 50px;
   cursor: pointer;
   transition: 3s;
+}
+
+.men__left__btn:hover {
+  transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
 }
 
 .men__right img {
@@ -142,8 +148,6 @@ a {
 .men__right__img:hover {
   transform: rotateY(360deg);
   transition: 2s;
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
 }
 
 /* men haqimda tugadi */
@@ -242,6 +246,12 @@ a {
   cursor: pointer;
 }
 
+.adam__btn:hover{
+    transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
+}
+
 .oyim__bosh {
   display: flex;
   align-items: center;
@@ -285,6 +295,12 @@ a {
   border-radius: 20px;
   margin-top: 50px;
   cursor: pointer;
+}
+
+.oyim__left button:hover{
+    transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
 }
 
 .opam-bosh {
@@ -332,6 +348,12 @@ a {
   cursor: pointer;
 }
 
+.opam-bosh button:hover{
+    transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
+}
+
 .akam__bosh {
   display: flex;
   align-items: center;
@@ -362,6 +384,12 @@ a {
   border: 1px solid aqua;
   border-radius: 20px;
   margin-top: 50px;
+}
+
+.akam__left button:hover{
+    transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
 }
 
 .akam__right img:hover {
@@ -486,6 +514,12 @@ a {
   border-radius: 10px;
 }
 
+.cards button:hover{
+    transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
+}
+
 /* qiziq tugadi */
 
 .contact__best {
@@ -526,6 +560,12 @@ a {
   border-radius: 10px;
 }
 
+.contact__left button:hover{
+    transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
+}
+
 .contact__right {
   display: grid;
   grid-template-columns: 1fr;
@@ -546,6 +586,12 @@ a {
   border-radius: 15px;
   font-size: 15px;
   font-weight: 700;
+}
+
+.contact__right button:hover{
+    transition: 2s;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 229, 255, 0.4);
 }
 
 .text__loyiha {
